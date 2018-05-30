@@ -16,11 +16,11 @@ abletonlink
 
 
 
-Python interface to Ableton Link
+Python interface to Ableton Link (WIP)
 
 
 * Free software: MIT license
-* Documentation: https://abletonlink.readthedocs.io.
+.. * Documentation: https://abletonlink.readthedocs.io.
 
 
 Features
