@@ -101,7 +101,7 @@ setup(
     include_package_data=True,
     keywords='abletonlink',
     name='abletonlink',
-    packages=find_packages(include=['abletonlink']),
+    packages=find_packages(exclude=('tests',)),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
@@ -109,7 +109,7 @@ setup(
     version='0.1.0',
     # add an extension module named 'abletonlink' to the package 
     # 'abletonlink'
-    ext_modules=[CMakeExtension('abletonlink/abletonlink')],
+    ext_modules=[CMakeExtension('abletonlink.abletonlink')],
     # add custom build_ext command
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
