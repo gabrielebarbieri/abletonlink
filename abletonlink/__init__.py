@@ -10,5 +10,5 @@ try:
     from .abletonlink import Link
     __ALL__ = [Link]
 except ImportError as e:
-    print(e.message)
+    print('No module named abletonlink')
     print('Are you sure that you built it?')
