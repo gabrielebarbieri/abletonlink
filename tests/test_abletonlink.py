@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from abletonlink import abletonlink
+# from abletonlink import abletonlink
 from abletonlink import cli
 
 
